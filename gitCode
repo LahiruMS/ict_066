@@ -1,0 +1,13 @@
+git init
+git config --global user.name "name"
+git config --global user.email "email"
+touch login.html
+git add ./git add login.html
+git status 
+git commit -m "coment"
+
+git init
+
+git remote add origin 
+git remote -v
+git push -f origin master
